@@ -1,0 +1,10 @@
+
+Open the following link in your browser:
+https://accounts.google.com/o/oauth2/auth?response_type=code&access_type=offline&client_id=743994631574-4r4godnd7lk1hvqshd8u9e84vlfik7km.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&state&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.readonly&approval_prompt=auto
+Enter verification code: 
+Fatal error: Uncaught exception 'InvalidArgumentException' with message 'Invalid code' in C:\xampp\htdocs\baru\vendor\google\apiclient\src\Google\Client.php:176
+Stack trace:
+#0 C:\xampp\htdocs\baru\quickstart.php(42): Google_Client->fetchAccessTokenWithAuthCode('')
+#1 C:\xampp\htdocs\baru\quickstart.php(75): getClient()
+#2 {main}
+  thrown in C:\xampp\htdocs\baru\vendor\google\apiclient\src\Google\Client.php on line 176
